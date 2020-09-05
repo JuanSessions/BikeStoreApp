@@ -11,21 +11,21 @@ const products = [{
     "brand": "Giant",
     "size": "big",
     "type": "children",
-    img: "/img/raymon-tourray-20-21-speed-altus-dark-grey-lime-grey-1.jpg"
+    img: "/img/ortler-summerfield-7-speed-women-white-2.jpg"
 }, {
     "id": 3,
     "name": "Mountain-track",
     "brand": "Raleigh",
     "size": "medium",
     "type": "women",
-    img: "/img/trek-domane-al-2-trek-black-carbon-smoke-1.jpg"
+    img: "/img/fixie-inc-blackheath-petrol-red-2.jpg"
 }, {
     "id": 4,
     "name": "Speedy",
     "brand": "Bianchi",
     "size": "small",
     "type": "men",
-    img: "/img/fixie-inc-blackheath-petrol-red-2.jpg"
+    img: "/img/trek-domane-al-2-trek-black-carbon-smoke-1.jpg"
 }]
 
 export default products;

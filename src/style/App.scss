@@ -38,7 +38,7 @@ button {
     flex-direction: row;
     color: rgb(15, 20, 71);
     text-shadow: white 0.1rem 0.1rem 0.6rem;
-    background-image: url(../assets/cycle-path-3444914_1920.jpg);
+    background-image: url(../assets/gear-2291916_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     h1 {
@@ -65,6 +65,10 @@ button {
     }
 }
 
+#home-container {
+    height: 18rem;
+}
+
 #contact-container {
     height: 11rem;
     color: white;
@@ -74,5 +78,11 @@ button {
     background-size: cover;
     iframe {
         width: 100%;
+    }
+}
+
+.carousel-section {
+    h3 {
+        color: white;
     }
 }

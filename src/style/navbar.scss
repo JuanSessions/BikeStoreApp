@@ -3,7 +3,7 @@
     margin: 0 auto;
     position: relative;
     padding: 0.2rem;
-    background-color: rgb(58, 76, 102);
+    background-image: url(../assets/gear-2291916_1920.jpg);
     a {
         margin: 0.2rem;
         cursor: pointer;
@@ -14,14 +14,14 @@
         justify-content: space-around;
         border: black 2px solid;
         border-radius: 7px;
-        animation: color-change 1s infinite;
+        animation: color-change 3s infinite;
     }
     @keyframes color-change {
         0% {
             color: rgb(255, 255, 255);
         }
         50% {
-            color: rgb(235, 224, 224);
+            color: rgb(226, 210, 210);
         }
         100% {
             color: rgb(255, 255, 255);

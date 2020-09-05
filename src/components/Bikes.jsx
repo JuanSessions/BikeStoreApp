@@ -7,7 +7,7 @@ const Carousel = require('react-responsive-carousel').Carousel;
 function Bikes() {
     const [data, setData] = useState(products)
     return (
-        <div>
+        <div className="carousel-section">
             <Carousel
                 showArrows={true}
                 showStatus={false}
