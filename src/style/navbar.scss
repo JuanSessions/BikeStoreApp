@@ -1,0 +1,79 @@
+.navbar {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0.2rem;
+    background-color: rgb(58, 76, 102);
+    a {
+        margin: 0.2rem;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.2rem;
+        background-color: rgb(76, 82, 95);
+        display: flex;
+        justify-content: space-around;
+        border: black 2px solid;
+        border-radius: 7px;
+        animation: color-change 1s infinite;
+    }
+    @keyframes color-change {
+        0% {
+            color: rgb(255, 255, 255);
+        }
+        50% {
+            color: rgb(235, 224, 224);
+        }
+        100% {
+            color: rgb(255, 255, 255);
+        }
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 5px;
+        background-color: rgb(212, 204, 204);
+        display: block;
+        margin: 8px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .hamburger:hover {
+        cursor: pointer;
+    }
+    #hamburger-navbar {
+        position: relative;
+    }
+    #hamburger-navbar.is-active {
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition-delay: 0.6s;
+        -o-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    #hamburger-navbar.is-active .line:nth-child(2) {
+        width: 0px;
+    }
+    #hamburger-navbar.is-active .line:nth-child(1),
+    #hamburger-navbar.is-active .line:nth-child(3) {
+        -webkit-transition-delay: 0.3s;
+        -o-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+    }
+    #hamburger-navbar.is-active .line:nth-child(1) {
+        -webkit-transform: translateY(13px);
+        -ms-transform: translateY(13px);
+        -o-transform: translateY(13px);
+        transform: translateY(13px);
+    }
+    #hamburger-navbar.is-active .line:nth-child(3) {
+        -webkit-transform: translateY(-13px) rotate(90deg);
+        -ms-transform: translateY(-13px) rotate(90deg);
+        -o-transform: translateY(-13px) rotate(90deg);
+        transform: translateY(-13px) rotate(90deg);
+    }
+}
