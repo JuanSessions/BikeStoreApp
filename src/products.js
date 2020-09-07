@@ -14,7 +14,7 @@ const products = [{
     img: "/img/ortler-summerfield-7-speed-women-white-2.jpg"
 }, {
     "id": 3,
-    "name": "Mountain-track",
+    "name": "City-Mountain Bike",
     "brand": "Raleigh",
     "size": "medium",
     "type": "women",

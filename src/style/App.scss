@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 body {
     margin: 0;
     width: 100vw;
-    height: 100vh;
+}
+
+#home-container {
+    width: 100vw;
+    height: 12rem;
     background-image: url(../assets/gear-2291916_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+h3 {
+    font-size: 1rem;
+    color: white;
+    text-shadow: black 0.1rem 0.1rem 0.6rem;
 }
 
 input,
@@ -65,10 +80,6 @@ button {
     }
 }
 
-#home-container {
-    height: 18rem;
-}
-
 #contact-container {
     height: 11rem;
     color: white;
@@ -84,5 +95,11 @@ button {
 .carousel-section {
     h3 {
         color: white;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .carousel-section {
+        margin: 0 auto;
     }
 }

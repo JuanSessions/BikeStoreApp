@@ -1,19 +1,28 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import "../style/navbar.scss"
 import Scroll from "react-scroll"
 let Link = Scroll.Link
 
 
-
 function Navbar() {
     const [isActive, setIsActive] = useState(false)
+    const [width, setWidth] = useState(window.innerWidth)
+
+    useEffect(() => {
+        const handleResize = () => setWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const toggleNavbar = ()=>{
         setIsActive(!isActive)
         console.log("toggle:", isActive);
     }
     return (
         <div className="navbar">
-            <div id="hamburger-navbar"
+           {width < 600 && <div id="hamburger-navbar"
                 class={`hamburger ${isActive ? " is-active" : ""}`}
                 onClick={toggleNavbar}
             >
@@ -21,9 +30,10 @@ function Navbar() {
                 <span className="line"></span>
                 <span className="line"></span>
             </div>
+            }
 
-          {  isActive?
-            ( <div>
+          {  isActive || width > 600 ?
+            ( <div className="links">
                 <Link to="home-container"
                     activeClass="active"
                     spy={true}
