@@ -40,7 +40,7 @@ button {
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
-        animation: App-logo-spin infinite 8s linear;
+        animation: App-logo-spin infinite 11s linear;
     }
 }
 
@@ -80,6 +80,10 @@ button {
     }
 }
 
+#products-container {
+    background-color: #090422;
+}
+
 #contact-container {
     height: 11rem;
     color: white;
@@ -96,10 +100,18 @@ button {
     h3 {
         color: white;
     }
+    border: rgb(76,
+    76,
+    87) solid 5px;
 }
 
 @media only screen and (min-width: 600px) {
     .carousel-section {
-        margin: 0 auto;
+        width: 70%;
+        margin: auto;
+    }
+    #contact-container {
+        width: 70%;
+        margin: auto;
     }
 }

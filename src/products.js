@@ -21,7 +21,7 @@ const products = [{
     img: "/img/fixie-inc-blackheath-petrol-red-2.jpg"
 }, {
     "id": 4,
-    "name": "Speedy",
+    "name": "Speed",
     "brand": "Bianchi",
     "size": "small",
     "type": "men",
