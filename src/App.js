@@ -14,9 +14,10 @@ function App() {
         <h1>Bike Store <span>Berlin</span></h1>
       </header>
       <Navbar />
-      <Home />
+      <Home /> 
       <Products />
       <Contact />
+      {/*  */}
     </div>
   );
 }

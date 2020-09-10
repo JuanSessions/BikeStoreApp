@@ -1,7 +1,7 @@
 const products = [{
     "id": 1,
     "name": "Mountain-E Pro",
-    "brand": "Treck",
+    "brand": "Bianchi",
     "size": "medium",
     "type": "men",
     "img": "./img/serious-mt-cataract-fs-275-black-1.jpg"
@@ -22,7 +22,7 @@ const products = [{
 }, {
     "id": 4,
     "name": "Speed",
-    "brand": "Bianchi",
+    "brand": "Treck",
     "size": "small",
     "type": "men",
     img: "./img/trek-domane-al-2-trek-black-carbon-smoke-1.jpg"

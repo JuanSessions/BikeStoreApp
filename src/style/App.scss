@@ -2,13 +2,13 @@
 body {
     margin: 0;
     width: 100vw;
-    overflow-x: auto;
+    //overflow-x: hidden;
     background-color: rgb(9, 4, 34);
 }
 
 #home-container {
     width: 100vw;
-    height: 12rem;
+    min-height: 12rem;
     background-image: url(../assets/gear-2291916_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,6 +78,27 @@ button {
 
 #products-container {
     background-color: #090422;
+}
+
+.result-search {
+    background-color: rgb(9, 4, 34);
+    color: white;
+    width: 10rem;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+.ex {
+    color: white;
+    border: white 2px solid;
+    position: relative;
+    top: 1rem;
+    left: 8rem;
+    padding: 0.1rem;
+    border-radius: 4px;
 }
 
 #contact-container {
