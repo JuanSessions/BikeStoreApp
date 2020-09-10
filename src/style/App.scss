@@ -2,6 +2,8 @@
 body {
     margin: 0;
     width: 100vw;
+    overflow-x: auto;
+    background-color: rgb(9, 4, 34);
 }
 
 #home-container {
@@ -31,6 +33,7 @@ button {
 
 .App {
     text-align: center;
+    background-color: rgb(9, 4, 34);
 }
 
 .App-logo {
@@ -84,9 +87,11 @@ button {
     text-shadow: 2px 2px 3px rgba(122, 122, 122, 1);
     background-image: url(../assets/bike-1836934_1920.jpg);
     background-size: cover;
-    iframe {
-        width: 100%;
-    }
+}
+
+iframe {
+    width: 100%;
+    margin: 0;
 }
 
 .carousel-section {
@@ -101,10 +106,10 @@ button {
 @media only screen and (min-width: 600px) {
     .carousel-section {
         width: 70%;
-        margin: auto;
+        margin: 0 auto;
     }
     #contact-container {
         width: 70%;
-        margin: auto;
+        margin: 0 auto;
     }
 }

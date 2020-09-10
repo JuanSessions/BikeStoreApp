@@ -1,6 +1,6 @@
 const products = [{
     "id": 1,
-    "name": "Mountain-Pro",
+    "name": "Mountain-E Pro",
     "brand": "Treck",
     "size": "medium",
     "type": "men",
