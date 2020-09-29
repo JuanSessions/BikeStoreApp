@@ -8,7 +8,7 @@ import Products from './pages/Products';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="content">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Bike Store <span>Berlin</span></h1>
