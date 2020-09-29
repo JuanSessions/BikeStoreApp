@@ -10,7 +10,7 @@ function App() {
   return (
       <div className="App smartphone">
       <div className="content">
-        <iframe src="https://juansessions.github.io/BikeStoreApp/" style={{width: "100%", height:"100%", border:"none"}}>
+        <iframe src="https://juansessions.github.io/BikeStoreApp/" style={{width: "100%", height:"100%", border:"none", overflowX:"hidden"}}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Bike Store <span>Berlin</span></h1>
