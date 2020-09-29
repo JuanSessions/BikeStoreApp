@@ -8,7 +8,9 @@ import Products from './pages/Products';
 
 function App() {
   return (
-    <div className="App" id="content">
+      <div className="App smartphone">
+      <div className="content">
+        <iframe src="https://juansessions.github.io/BikeStoreApp/" style={{width: "100%", height:"100%", border:"none"}}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Bike Store <span>Berlin</span></h1>
@@ -18,7 +20,10 @@ function App() {
       <Products />
       <Contact />
       {/*  */}
+        </iframe>
+    </div>  
     </div>
+
   );
 }
 
